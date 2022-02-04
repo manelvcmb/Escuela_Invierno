@@ -7,7 +7,7 @@ covidDF = read_csv('https://cnecovid.isciii.es/covid19/resources/casos_hosp_uci_
 
 pathToData = "C:/Users/Manel/Documents/PROYECTOS/R_PROYECTOS/MATGEN/Datos/casos_hosp_uci_def_sexo_edad_provres.csv"
 
-write.csv(covidDF, pathToData)
+write.csv(covidDF, pathToData, row.names = FALSE)
 
 
 
